@@ -64,7 +64,7 @@ const LoginPage = () => {
                     className='bg-transparent outline-none text-white'
                     name='user_name'
                     id='input_field'
-                    placeholder='Name'
+                    placeholder='User Name'
                     value={userDetails.user_name}
                     type="text"
                     onChange={(e) => handleChange(e)}
@@ -75,14 +75,14 @@ const LoginPage = () => {
                     className='bg-transparent outline-none text-white'
                     name='user_pass'
                     id='input_field'
-                    placeholder='Password'
+                    placeholder='User Password'
                     value={userDetails.user_pass}
                     type="password"
                     onChange={(e) => handleChange(e)}
                 />
 
                 <button className='join_btn text-white uppercase pointer text-xl outline-none ' type='submit' >
-                    Create User
+                    Sign In
                 </button>
                 <span className='text-white uppercase'>Don't have account? You should <Link to='/'> Sign Up</Link></span>
             </form>
